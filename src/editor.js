@@ -477,7 +477,7 @@ function createHTML(options = {}) {
 
             init: function (){
                 if (${useContainer}){
-                    // setInterval(Actions.UPDATE_HEIGHT, 150);
+                    setInterval(Actions.UPDATE_HEIGHT, 150);
                     Actions.UPDATE_HEIGHT();
                 } else {
                     // react-native-webview There is a bug in the body and html height setting of a certain version of 100%
